@@ -122,6 +122,7 @@ Specific troubleshooting details are not documented where the original records a
 The following details are currently known:
 
 | Category	| Details |
+|---|---|
 | Host OS	| Windows 10 |
 | Linux environment	| WSL / Debian |
 | RAM	| 128 GB |

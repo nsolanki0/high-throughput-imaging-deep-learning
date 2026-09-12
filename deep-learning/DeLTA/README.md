@@ -184,7 +184,7 @@ DeLTA is externally developed research software. This repository does not reprod
 
 Instead, this section documents how DeLTA v2 was integrated into a specific laboratory workflow and how the transition from an established DeLTA v1-based workflow was approached.
 
-# Reproducibility Notes
+## Reproducibility Notes
 Known environment details are recorded here where available:
 
 | Category | Details |
