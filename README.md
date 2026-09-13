@@ -1,7 +1,7 @@
 # High-Throughput Imaging and Deep Learning Workflow
 
 ### Overview
-This repository documents a computational workflow developed to support the quantitative analysis of high-throughput microscopy data, including fluorescence microscopy data, generated from _Escherichia coli_ growth and ageing experiments.
+This repository documents computational work undertaken during a nearly three-year position as Student Research Assistant at Freie Universität Berlin, supporting the quantitative analysis of high-throughput microscopy data, including fluorescence microscopy data, generated from _Escherichia coli_ growth and ageing experiments.
 
 The project combined experimental microscopy with image processing, manual annotation, deep-learning-assisted segmentation and tracking, computational infrastructure setup, iterative workflow development, validation, post-processing, and downstream quantitative analysis in R.
 
@@ -91,7 +91,7 @@ The mother-machine system provided a framework for following bacterial cells ove
 The computational workflow was therefore designed around the characteristics and requirements of the experimental datasets rather than around a generic image-analysis example.
 
 ## My Computational Contribution
-My contribution covered multiple stages of the computational workflow, from establishing the computational environment through image processing, deep-learning-assisted analysis, validation, post-processing, and downstream quantitative analysis.
+My contribution spanned the computational workflow from establishing the computational environment through image processing, deep-learning-assisted analysis, validation, post-processing, and downstream quantitative analysis.
 
 ### 1. Computational Infrastructure
 The project required additional computational resources to support the updated image-analysis and deep-learning workflow.
@@ -105,9 +105,7 @@ I contributed to upgrading and configuring the computational infrastructure and 
 Further details are documented in `computational-infrastructure/README.md`.
 
 ### 2. DeLTA v2 Setup and Integration
-The laboratory was initially working with an earlier version of the DeLTA framework.
-
-To support the use of a newer version, I worked on establishing the computational setup required to run DeLTA v2 with the project's microscopy datasets.
+The laboratory was initially working with an earlier version of the DeLTA framework. I contributed to establishing the computational setup required to transition to DeLTA v2 and run it with the project's microscopy datasets.
 
 This involved practical deployment and integration tasks including:
 - installing and configuring the updated software;
@@ -132,7 +130,7 @@ The workflow included steps for:
 Data preparation was an important component of the workflow because downstream segmentation and tracking depended on the consistency and suitability of the image inputs.
 
 ### 4. Manual Annotation
-Representative microscopy images were manually annotated to provide labelled examples for segmentation development and evaluation and to contribute to the broader model-development workflow.
+Representative microscopy images were manually annotated to provide labelled examples for segmentation development, evaluation, and the broader model-development workflow.
 
 Annotation was treated as an important component of the computational workflow rather than simply as a preliminary step.
 
@@ -198,9 +196,7 @@ This iterative approach was important because performance on real experimental m
 The workflow was therefore developed around observed performance on the project's experimental datasets, with particular attention to segmentation and tracking errors that could affect downstream biological analysis.
 
 ## Deep Learning
-The project incorporated the DeLTA framework for deep-learning-assisted bacterial cell segmentation and tracking.
-
-DeLTA formed part of the computational pipeline connecting microscopy images with cell-level measurements.
+The project incorporated the DeLTA framework for deep-learning-assisted bacterial cell segmentation and tracking, forming the computational link between microscopy images and cell-level measurements.
 
 My contribution included the practical computational setup, integration, testing, evaluation, and workflow development surrounding the DeLTA-based analysis. I was also involved in the broader model-development workflow through preparation and annotation of training and evaluation data, assessment of model outputs, identification of failure modes, and iterative evaluation of model and workflow performance.
 
@@ -234,7 +230,7 @@ This stage connected the image-analysis workflow to the subsequent biological an
 ## Quantitative Analysis
 Processed imaging data were subsequently analysed using R.
 
-The downstream analysis transformed image-derived measurements into quantitative summaries suitable for biological interpretation and publication-oriented analysis.
+The downstream analysis transformed image-derived measurements into quantitative summaries for biological interpretation and publication-oriented analysis.
 
 ## Repository Structure
 ```text
@@ -296,7 +292,7 @@ Because the original laboratory code and datasets are not available for public r
 - Conversion of image-derived outputs into quantitative biological measurements
 
 ## Key Takeaway
-This project demonstrates an end-to-end computational biology workflow in which experimental microscopy data were transformed into quantitative biological measurements.
+This project demonstrates an end-to-end computational biology workflow for transforming experimental microscopy data into quantitative biological measurements.
 
 A particularly important aspect of the work was the integration of computational infrastructure, scientific software, image analysis, deep-learning-assisted segmentation and tracking, validation, post-processing, and R-based quantitative analysis.
 
@@ -307,4 +303,4 @@ The original source code, experimental datasets, laboratory-specific configurati
 
 This repository is intended as a technical project record and portfolio resource documenting the computational workflow, methodology, infrastructure, and my contribution.
 
-Where appropriate, additional diagrams, workflow documentation, methodological notes, and non-sensitive illustrative material may be added to demonstrate the computational approaches used in the project.
+Additional diagrams, workflow documentation, methodological notes, and non-sensitive illustrative material may be added where appropriate to further document the computational approaches used in the project.
