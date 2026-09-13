@@ -1,7 +1,7 @@
 # High-Throughput Imaging and Deep Learning Workflow
 
 ### Overview
-This repository documents computational work undertaken during a nearly three-year position as Student Research Assistant at Freie Universität Berlin, supporting the quantitative analysis of high-throughput microscopy data, including fluorescence microscopy data, generated from _Escherichia coli_ growth and ageing experiments.
+This repository documents computational work undertaken during a nearly three-year part-time position as a Student Research Assistant at Freie Universität Berlin, supporting the quantitative analysis of high-throughput microscopy data, including fluorescence microscopy data, generated from _Escherichia coli_ growth and ageing experiments.
 
 The project combined experimental microscopy with image processing, manual annotation, deep-learning-assisted segmentation and tracking, computational infrastructure setup, iterative workflow development, validation, post-processing, and downstream quantitative analysis in R.
 
