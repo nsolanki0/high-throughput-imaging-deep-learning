@@ -13,11 +13,21 @@ env/
 # Jupyter
 .ipynb_checkpoints/
 
+# OS files
+.DS_Store
+
 # IDE / editor files
 .vscode/
 .idea/
+
+# Log files
+*.log
 
 # OS / temporary files
 *.tmp
 *.swp
 
+# R
+.Rhistory
+.RData
+.Rproj.user/
